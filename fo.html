@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elemets HTML</title>
+    <style>
+        div {
+            background-color: orange;
+            width: 800px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- input and lable -->
+    <div>
+        <form action="">
+            <label for="username">USer name</label>
+            <input type="text">
+            <br>
+            <label>PassWord</label>
+            <input type="password" id="password">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <br>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <label for="">username</label>
+                </td>
+                <td> <input type="text"> </td>
+            </tr>
+            <tr>
+                <td><label for="">PassWord</label></td>
+                <td> <input type="password"> </td>
+            </tr>
+        </table>
+    </div>
+    <!-- Select and option -->
+    <div>
+        <form action="">
+            <label for="">Select Language</label>
+            <select name="" id="">
+                <option value="HTML">HTML</option>
+                <option value="">CSS</option>
+                <option value="">JS</option>
+                <option value="">C</option>
+                <option value="">C++</option>
+            </select>
+        </form>
+
+    </div>
+    <br>
+    <!-- Text area -->
+    <div>
+        <form action="">
+            <label for="">Text area</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </form>
+    </div>
+
+    <!-- Datalist  -->
+    <div>
+        <form action="">
+            <label for="">Select a language</label>
+            <input list="Teachnologies" name="teach">
+            <datalist id="Teachnologies">
+                <option value="HTML">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JS">
+                <option value="JQuer">
+                <option value="JAVA">
+                <option value="Python">
+                <option value="REACT">
+
+            </datalist>
+        </form>
+    </div>
+</body>
+
+</html>
